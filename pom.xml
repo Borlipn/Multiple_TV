@@ -37,7 +37,8 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>core.HtmlUnit</mainClass>
+							<!-- <mainClass>core.HtmlUnit</mainClass> -->
+							<mainClass>${mainClass}</mainClass>  
 						</manifest>
 					</archive>
 					 <descriptorRefs>
