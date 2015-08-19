@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>core</groupId>
-  <artifactId>Single_TV</artifactId>
+  <artifactId>Multiple_TV</artifactId>
   <!--  <version>1.01</version> -->
   <version>${build.version}</version>
   <packaging>jar</packaging>
 
-  <name>Single_TV</name>
+  <name>Multiple_TV</name>
   <url>http://maven.apache.org</url>
 
   <properties>
