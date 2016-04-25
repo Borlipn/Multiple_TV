@@ -3,14 +3,13 @@ package core;
 //BEGIN
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Selenium {
 	public static void main(String[] args) {
 
-		//WebDriver driver = new FirefoxDriver();    // Version 1.1 :: Firefox
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();    // Version 1.1 :: Firefox
+
 		String text_case_id = "TC-005.01";
 		String param[] = args[0].split("\\|");
 		String url = param[0];
